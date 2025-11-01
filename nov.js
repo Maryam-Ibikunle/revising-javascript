@@ -11,6 +11,4 @@ const createCircle = (radius) =>{
     }
 }
 
-const circle1 = createCircle(2)
-console.log(circle1.perimeter())
-console.log(circle1.area())
+
