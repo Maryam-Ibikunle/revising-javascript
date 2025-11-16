@@ -32,12 +32,12 @@ const found = courses.find(function(course){
 
 //SLICING INTO 2 PARTS
 
-// const numbers2 = [...numbers, '7', '8']
-// console.log(numbers2)
-// numbers2.reverse()
-// console.log(numbers2)
+const numbers2 = [...numbers, '7', '8']
+console.log(numbers2)
+numbers2.reverse()
+console.log(numbers2)
 
-// courses.sort(function(a,b){
-//     if (a.name<b.name) return -1
-// })
-// console.log(courses)
+courses.sort(function(a,b){
+    if (a.name<b.name) return -1
+})
+console.log(courses)
